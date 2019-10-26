@@ -3,10 +3,11 @@
 }
 
 body {
-  background: url(https://i1.wallbox.ru/wallpapers/main/201121/c0de3e0d9d1edcf881c1c47717321db4.jpg);
+  background: url(https://i1.wallbox.ru/wallpapers/main/201121/c0de3e0d9d1edcf881c1c47717321db4.jpg) no-repeat;
   background-size: cover;  
     color: #eee;
   font: 1em 'PT Sans', sans-serif;
+background-color: #FFFFFF;
 
 }
 
