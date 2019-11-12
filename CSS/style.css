@@ -124,6 +124,7 @@ background-color: #000000;
     padding:10px;
     color: #777;
     margin-top:17px;
+    text-align: left;
     background:#f3f3f3;
     height:90px;
     -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
@@ -133,7 +134,6 @@ background-color: #000000;
 
 .poster:hover .descr{
     display:block;
-	text-align: left;
     position:absolute;
     top:7px;
     left:20px;
