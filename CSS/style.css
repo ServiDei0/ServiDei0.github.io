@@ -133,6 +133,7 @@ background-color: #000000;
 
 .poster:hover .descr{
     display:block;
+	text-align: left;
     position:absolute;
     top:7px;
     left:20px;
