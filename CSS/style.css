@@ -7,7 +7,8 @@ body {
   background-size: cover;  
     color: #eee;
   font: 1em 'PT Sans', sans-serif;
-background-color: #000000;
+background-color: #FFFFFF;
+
 }
 
 ::selection {
@@ -19,13 +20,13 @@ background-color: #000000;
   background-size: cover;  
 }
 
+.conteiner{background-color: #4EC6DE;display:inline-block;}
 
 .header{
   padding: 20px;
-  margin: -8px;
-  background-color: #4EC6DE;
+  margin: -8px;  
   font-weight: bold;
-  text-align: center;
+  text-align: right;
   font-size: 250%;
 }
 
@@ -99,4 +100,43 @@ background-color: #000000;
     border-bottom: 2px solid #4EC6DE;
     padding-bottom: .5em;
   }  
+ .poster{
+    margin-left:45%;
+ }
 }
+
+.poster{
+	margin-top:35px;
+    position:absolute;
+    background:#ff6600;
+    height:30px;
+    width:10%;
+    margin-left:65%;
+    text-align: center;
+    padding-top:5px;
+}
+
+.descr{
+    display:none;
+    opacity: 1;
+    border-radius: 0 10px 10px;
+    margin-left:100px;
+    padding:10px;
+    color: #777;
+    margin-top:17px;
+    background:#f3f3f3;
+    height:90px;
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+}
+
+.poster:hover .descr{
+    display:block;
+    position:absolute;
+    top:7px;
+    left:20px;
+    z-index:200;
+    width:250px;
+
+
